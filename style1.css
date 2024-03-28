@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(245, 219, 136) 20%, rgb(236, 152, 152) 80%);
+    margin: 0px;
+    object-fit: contain;
+    min-width: 100%;
+
+}
+.container1{
+    display: flex;
+    align-items: center;
+    
+}
+.image-container{
+    padding:20px;
+    display: grid;
+    display: flex;
+    flex:1;
+    float: left;
+    margin:500px;
+    margin-right: 200px;
+    gap:20px;
+   
+    
+}
+
+img{
+    float: left;
+    display: flex;
+    flex:1;
+    height: 100%;
+    width:20vw; 
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    
+}
+
+.gallery{
+    display: grid;
+    grid-gap:30px;
+
+}
+
+.photo1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.photo2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+
+}
+
+.photo3{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    
+}
+
+
+
+    
+#button{
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container{
+    width:20vw;
+    font-family: 'Lucida Sans';
+    font-size: 50px;
+    flex:1;
+    float: right;
+    display: flex;
+    padding: 100px;
+    border: 10px;
+    border-color: black;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.content{
+    background-color: rgb(230, 95, 95);
+    width:20vw;
+    width: 100%;
+    border: transparent;
+    padding: 50px;
+    margin-left: 0px;
+    margin-right: 200px;
+    width: fit-content;
+    
+}
+
+p1{
+    width:20vw;
+    font-size: 200px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
